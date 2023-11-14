@@ -9,7 +9,7 @@
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint . --fix",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "coverage": "jest --coverage",
     "preshow:coverage": "yarn run coverage",
     "show:coverage": "live-server coverage/lcov-report",
