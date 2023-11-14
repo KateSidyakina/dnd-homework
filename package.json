@@ -10,7 +10,7 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint . --fix",
     "test": "jest --passWithNoTests",
-    "coverage": "jest --coverage",
+    "coverage": "jest --passWithNoTests --coverage",
     "preshow:coverage": "yarn run coverage",
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "yarn run build",
